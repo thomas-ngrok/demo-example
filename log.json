@@ -1,0 +1,108 @@
+{"lvl":"info","msg":"no configuration paths supplied","t":"2022-04-01T12:20:15.81931-04:00"}
+{"legacy_path":"/Users/thomas/.ngrok2/ngrok.yml","lvl":"warn","msg":"ngrok config file found at both XDG and legacy locations, using XDG location","t":"2022-04-01T12:20:15.819533-04:00","xdg_path":"/Users/thomas/Library/Application Support/ngrok/ngrok.yml"}
+{"lvl":"info","msg":"using configuration at default config path","path":"/Users/thomas/Library/Application Support/ngrok/ngrok.yml","t":"2022-04-01T12:20:15.819551-04:00"}
+{"err":"\u003cnil\u003e","lvl":"info","msg":"open config file","path":"/Users/thomas/Library/Application Support/ngrok/ngrok.yml","t":"2022-04-01T12:20:15.819587-04:00"}
+{"ext":".svg","lvl":"dbug","msg":"ignoring manifest file with unhandled mimetype","name":"assets/glyphicons-halflings-regular.svg","t":"2022-04-01T12:20:15.820129-04:00"}
+{"ext":".ttf","lvl":"dbug","msg":"ignoring manifest file with unhandled mimetype","name":"assets/glyphicons-halflings-regular.ttf","t":"2022-04-01T12:20:15.820149-04:00"}
+{"ext":".woff","lvl":"dbug","msg":"ignoring manifest file with unhandled mimetype","name":"assets/glyphicons-halflings-regular.woff","t":"2022-04-01T12:20:15.820155-04:00"}
+{"ext":".eot","lvl":"dbug","msg":"ignoring manifest file with unhandled mimetype","name":"assets/glyphicons-halflings-regular.eot","t":"2022-04-01T12:20:15.820176-04:00"}
+{"ext":".woff2","lvl":"dbug","msg":"ignoring manifest file with unhandled mimetype","name":"assets/glyphicons-halflings-regular.woff2","t":"2022-04-01T12:20:15.820189-04:00"}
+{"addr":"127.0.0.1:4040","lvl":"warn","msg":"can't bind default web address, trying alternatives","obj":"web","t":"2022-04-01T12:20:15.821145-04:00"}
+{"lvl":"dbug","msg":"starting component","name":"consoleui","obj":"app","t":"2022-04-01T12:20:15.821923-04:00"}
+{"lvl":"dbug","msg":"starting component","name":"web","obj":"app","t":"2022-04-01T12:20:15.821901-04:00"}
+{"addr":"127.0.0.1:4041","lvl":"info","msg":"starting web service","obj":"web","t":"2022-04-01T12:20:15.822054-04:00"}
+{"lvl":"dbug","msg":"starting component","name":"Tunnel session","obj":"app","t":"2022-04-01T12:20:15.821936-04:00"}
+{"lvl":"dbug","msg":"starting component","name":"updater","obj":"app","t":"2022-04-01T12:20:15.82195-04:00"}
+{"interval":"6h0m0s","lvl":"dbug","msg":"checking for updates periodically","obj":"updater","t":"2022-04-01T12:20:15.822188-04:00"}
+{"lvl":"dbug","msg":"check for update","obj":"updater","t":"2022-04-01T12:20:15.822229-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:15.823072-04:00"}
+{"err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"open stream","obj":"csess","reqtype":0,"t":"2022-04-01T12:20:15.99981-04:00"}
+{"err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"encode request","obj":"csess","req":{"Version":["2"],"ClientId":"","Extra":{"OS":"darwin","Arch":"arm64","Authtoken":"6Bio5ztYwsG2jTBV1JfYZ_6tsiRs6CQoULgwVuhWQVo","Version":"3.0.0","Hostname":"tunnel.us.inbound.ngrok.rocks","UserAgent":"ngrok/2","Metadata":"","Cookie":"","HeartbeatInterval":10000000000,"HeartbeatTolerance":15000000000,"Fingerprint":{"M":["4b5bb52f0887509d1d7dd6db5e949fde03de54d91be877049d1f547566e40f76"],"D":null},"UpdateUnsupportedError":"","StopUnsupportedError":"","RestartUnsupportedError":"","ProxyType":"none","MutualTLS":false,"ServiceRun":false,"ConfigVersion":"2","CustomInterface":false,"CustomCAs":false}},"sid":3,"t":"2022-04-01T12:20:16.000439-04:00"}
+{"err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"decoded response","obj":"csess","resp":{"Version":"2","ClientId":"32a22b6a453f32da3ee2a82845a8afab","Error":"","Extra":{"Version":"prod","Region":"us","Cookie":"4OYXWIbBcKzd4nd7DCgl+ptf/ZV9o4mX$363RIegYpkU0WzE/MDTsz1tQrl1Au7rb1HPkNnGWgKROvIVMYL8rgT6zqQ3Z2wQhFbTgP0YRC4+0y5ubcPEma0wThlO/ZN6k1sCjQ3If3obhF/jV3zAMDLUrsTOehlV0bhpa1h/D6gbvCEIthCaGHEryJgxH65HwhKbrsHkBl9r2TJ1CcJKTV7HThzPh9H2AM4R4f9EHMRWzX69DYQ==","AccountName":"Thomas Kirk","SessionDuration":0,"PlanName":"Link"}},"sid":3,"t":"2022-04-01T12:20:16.075248-04:00"}
+{"lvl":"info","msg":"tunnel session started","obj":"tunnels.session","t":"2022-04-01T12:20:16.075399-04:00"}
+{"id":"14f8cad0e513","lvl":"info","msg":"client session established","obj":"csess","t":"2022-04-01T12:20:16.075432-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"open stream","obj":"csess","reqtype":7,"t":"2022-04-01T12:20:16.075505-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"encode request","obj":"csess","req":{"Labels":{"edge":"edghts_26A9UBTmMDF3DgbNkjyYnTATPOZ"},"ForwardsTo":"tcp://localhost:3002","Metadata":""},"sid":7,"t":"2022-04-01T12:20:16.075599-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","err":"\u003cnil\u003e","id":"836a34f3f7d5","lvl":"dbug","msg":"decoded response","obj":"csess","resp":{"Id":"tn_27ChXhoivZs57HCcVADfaBj21td","Error":""},"sid":7,"t":"2022-04-01T12:20:16.150273-04:00"}
+{"err":"\u003cnil\u003e","labels":{"edge":"edghts_26A9UBTmMDF3DgbNkjyYnTATPOZ"},"lvl":"dbug","msg":"start tunnel listen on labels","obj":"tunnels.session","t":"2022-04-01T12:20:16.150357-04:00"}
+{"id":"tn_27ChXhoivZs57HCcVADfaBj21td","labels":{"edge":"edghts_26A9UBTmMDF3DgbNkjyYnTATPOZ"},"lvl":"info","msg":"started tunnel","name":"command_line","obj":"tunnels","t":"2022-04-01T12:20:16.150443-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:16.150867-04:00"}
+{"lvl":"dbug","msg":"no update available","obj":"updater","t":"2022-04-01T12:20:16.228878-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:16.822335-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:17.821397-04:00"}
+{"id":"11b4e794d949d48c","lvl":"info","msg":"start","pg":"/grpc/agent.Web/State","t":"2022-04-01T12:20:18.514122-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:18.822235-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:19.82227-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:20.821345-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:21.821719-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:22.822158-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:23.821296-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:24.82232-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:25.821178-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","id":"836a34f3f7d5","latency_ms":67,"lvl":"dbug","msg":"heartbeat received","obj":"csess","t":"2022-04-01T12:20:26.068082-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:26.822211-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:27.821422-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:28.822484-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:29.822028-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:30.82214-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:31.821959-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:32.822695-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:33.821932-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:34.8228-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:35.821475-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","id":"836a34f3f7d5","latency_ms":66,"lvl":"dbug","msg":"heartbeat received","obj":"csess","t":"2022-04-01T12:20:36.067286-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:36.822087-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:37.821996-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:38.821838-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:39.821502-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:40.822164-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:41.822327-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:42.823232-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:43.821883-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:44.821782-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:45.821536-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","id":"836a34f3f7d5","latency_ms":67,"lvl":"dbug","msg":"heartbeat received","obj":"csess","t":"2022-04-01T12:20:46.07073-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:46.822657-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:47.821331-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:48.821866-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:49.822316-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:50.822184-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:51.821586-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:52.821854-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:53.821465-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:54.822578-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:55.821363-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","id":"836a34f3f7d5","latency_ms":68,"lvl":"dbug","msg":"heartbeat received","obj":"csess","t":"2022-04-01T12:20:56.069337-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:56.8219-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:57.821075-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:58.822265-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:20:59.821549-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:00.822279-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:01.822179-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:02.822485-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:03.821821-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:04.82216-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:05.821427-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","id":"836a34f3f7d5","latency_ms":68,"lvl":"dbug","msg":"heartbeat received","obj":"csess","t":"2022-04-01T12:21:06.068546-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:06.821755-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:07.821919-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:08.822715-04:00"}
+{"lvl":"dbug","msg":"Resize event, redrawing","obj":"consoleui","t":"2022-04-01T12:21:09.451894-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:09.453288-04:00"}
+{"lvl":"dbug","msg":"waiting for update","obj":"consoleui","t":"2022-04-01T12:21:09.823399-04:00"}
+{"lvl":"info","msg":"Got quit command","obj":"consoleui","t":"2022-04-01T12:21:10.076043-04:00"}
+{"lvl":"dbug","msg":"requested stop","obj":"app","t":"2022-04-01T12:21:10.076223-04:00"}
+{"lvl":"info","msg":"received stop request","obj":"app","stopReq":{},"t":"2022-04-01T12:21:10.076261-04:00"}
+{"err":"\u003cnil\u003e","lvl":"info","msg":"session closing","obj":"tunnels.session","t":"2022-04-01T12:21:10.076544-04:00"}
+{"lvl":"dbug","msg":"waiting for all components to stop","obj":"app","t":"2022-04-01T12:21:10.076683-04:00"}
+{"lvl":"dbug","msg":"waiting for components to stop","obj":"app","remaining":4,"t":"2022-04-01T12:21:10.076727-04:00"}
+{"err":"\u003cnil\u003e","lvl":"dbug","msg":"component stopped","name":"updater","obj":"app","t":"2022-04-01T12:21:10.076782-04:00"}
+{"lvl":"dbug","msg":"waiting for components to stop","obj":"app","remaining":3,"t":"2022-04-01T12:21:10.076853-04:00"}
+{"err":"\u003cnil\u003e","lvl":"dbug","msg":"component stopped","name":"consoleui","obj":"app","t":"2022-04-01T12:21:10.076896-04:00"}
+{"lvl":"dbug","msg":"waiting for components to stop","obj":"app","remaining":2,"t":"2022-04-01T12:21:10.076985-04:00"}
+{"err":"\u003cnil\u003e","lvl":"dbug","msg":"component stopped","name":"Tunnel session","obj":"app","t":"2022-04-01T12:21:10.077035-04:00"}
+{"err":"reconnecting session closed","id":"14f8cad0e513","lvl":"info","msg":"accept failed","obj":"csess","t":"2022-04-01T12:21:10.077077-04:00"}
+{"clientid":"32a22b6a453f32da3ee2a82845a8afab","err":"session closed","id":"836a34f3f7d5","lvl":"dbug","msg":"open stream","obj":"csess","reqtype":2,"t":"2022-04-01T12:21:10.077207-04:00"}
+{"err":"not reconnecting, session closed by the client side","lvl":"dbug","msg":"tunnel session closing permanently","obj":"tunnels.session","t":"2022-04-01T12:21:10.077085-04:00"}
+{"lvl":"dbug","msg":"waiting for components to stop","obj":"app","remaining":1,"t":"2022-04-01T12:21:10.077102-04:00"}
+{"lvl":"dbug","msg":"all components stopped","obj":"app","t":"2022-04-01T12:21:10.077431-04:00"}
