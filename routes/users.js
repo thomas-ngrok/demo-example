@@ -21,4 +21,10 @@ router.post('/slack', function(req, res, next) {
 
 });
 
+router.all('/pagerduty', function(req, res, next){
+  res.json({"hello pagerduty": "I'm ready for webhoooks",
+    "time": Date.now(),
+});
+});
+
 module.exports = router;
